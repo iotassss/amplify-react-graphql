@@ -126,6 +126,7 @@ function App({ signOut }) {
   return (
     <div className="App">
       <h1>My Notes App</h1>
+      <input type='text' placeholder='Hello World!'/>
       <input
         onChange={e => setFormData({ ...formData, 'name': e.target.value })}
         placeholder="Note name"
